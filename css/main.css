@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+body {
+   background-image: url(../img/background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.logo-site {
+    font-family: 'Sriracha', cursive;
+    background-color: #343a40;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+}
+form {
+    margin-top: 20px;
+}
+.col-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
+.subscribe {
+    width: 50%;
+    background-color: #f8f9fac4;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    -webkit-box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
+    box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
+}
+h1 {
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+@media only screen and (max-width: 980px) {
+    .subscribe {
+        width: 90%;
+    }
+}
