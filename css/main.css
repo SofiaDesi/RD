@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 body {
    background-image: url(../img/background.jpg);
@@ -14,6 +16,42 @@ body {
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 3px;
+}
+.welcome-box {
+    width: 80%;
+}
+.welcome {
+    color: #343a40;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;   
+}
+.subtext {
+    font-family: 'Mulish', sans-serif;
+    font-size: 23px;
+    margin-top: 15px;
+}
+.two {
+    margin-top: none;
+    margin-bottom: 30px;
+}
+.one {
+    font-size: 18px;
+}
+.slide {
+    -webkit-box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
+    box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
+    margin-bottom: 60px;
+}
+.acesso {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.conc {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 form {
     margin-top: 20px;
@@ -42,6 +80,11 @@ form {
     -moz-box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
     box-shadow: 13px 15px 37px -12px rgba(0,0,0,0.75);
 }
+.sub-one {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
 h1 {
     font-size: 30px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -52,5 +95,17 @@ h1 {
 @media only screen and (max-width: 980px) {
     .subscribe {
         width: 90%;
+    }
+    .welcome {
+        font-size: 30px;
+    }
+    .two {
+        font-size: 15px;
+    }
+    .one {
+        font-size: 15px;
+    }
+    .welcome-box {
+        width: 100%;
     }
 }
